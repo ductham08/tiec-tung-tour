@@ -256,4 +256,60 @@
        object-fit: contain;
   }
 }
+
+.policy-page {
+  font-family: 'Lexend' !important;
+  position: relative;
+  padding-top: 5rem;
+}
+
+@media (max-width: 768px) {
+  .policy-page {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .policy-page {
+    padding-top: 10rem;
+  }
+}
+
+.policy-page .shape-fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 10rem;
+}
+
+@media (max-width: 768px) {
+  .policy-page .shape-fixed {
+    max-width: 10rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .policy-page .shape-fixed {
+    max-width: 10rem;
+  }
+}
+
+.policy-page .content-main h1 {
+  color: #292b1e;
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media (max-width: 575px) {
+  .policy-page .content-main h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .policy-page .content-main h1 {
+    font-size: 1.25rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
