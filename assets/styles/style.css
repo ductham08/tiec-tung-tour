@@ -262,6 +262,8 @@
   position: relative;
   padding-top: 5rem;
   background-color: #cfccbd;
+  min-height: 100vh;
+  padding-bottom: 5rem;
 }
 
 @media (max-width: 768px) {
@@ -336,10 +338,54 @@
   content: '';
   position: absolute;
   left: 0;
-  top: 7px;
-  width: 12px;
-  height: 12px;
+  top: 6px;
+  width: 16px;
+  height: 14px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='27px' height='22px'%3E%3Cpath fill-rule='evenodd' fill='rgb(245, 176, 27)' d='M0.978,0.966 L0.978,21.951 L26.958,0.966 L0.978,0.966 Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.policy-page .content-main .list li .list-sub {
+  padding-left: 7px;
+  list-style: none;
+}
+
+.policy-page .content-main .list li .list-sub li {
+  margin-bottom: 0;
+}
+
+.policy-page .content-main .list li .list-sub li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 14px;
+  height: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='19px' height='17px'%3E%3Cpath fill-rule='evenodd' fill='rgb(66, 89, 47)' d='M0.134,0.965 L0.134,16.208 L19.013,0.965 L0.134,0.965 Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.policy-page .content-main .list li .list-sub .list-sub-child {
+  list-style: none;
+  padding-left: 7px;
+}
+
+.policy-page .content-main .list li .list-sub .list-sub-child li {
+  margin-bottom: 0;
+}
+
+.policy-page .content-main .list li .list-sub .list-sub-child li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 12px;
+  height: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='19px' height='17px'%3E%3Cpath fill-rule='evenodd' fill='rgb(40, 42, 29)' d='M0.134,0.965 L0.134,16.208 L19.013,0.965 L0.134,0.965 Z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
