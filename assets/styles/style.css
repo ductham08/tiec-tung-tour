@@ -68,6 +68,7 @@
   .landing-concert .landing-content .main-content {
     padding-left: 15px;
     padding-right: 15px;
+    gap: 7rem;
   }
 }
 
