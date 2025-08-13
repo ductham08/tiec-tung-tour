@@ -254,6 +254,11 @@
                 position: relative;
                 padding-left: 20px;
                 color: #292b1e;
+
+                a{
+                    text-decoration: none;
+                    color: #292b1e;
+                }
                 
                 &:before {
                     content: '';

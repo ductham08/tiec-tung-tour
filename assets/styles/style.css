@@ -327,6 +327,11 @@
   color: #292b1e;
 }
 
+.policy-page .content-main .list li a {
+  text-decoration: none;
+  color: #292b1e;
+}
+
 .policy-page .content-main .list li:before {
   content: '';
   position: absolute;
