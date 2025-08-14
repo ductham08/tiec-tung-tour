@@ -247,22 +247,49 @@
 }
 
 .landing-concert .landing-content .main-content .media-partner .logo-parter {
-  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  gap: 15px;
+}
+
+.landing-concert .landing-content .main-content .media-partner .logo-parter p {
+  font-size: 18px;
+  color: #f9efd6;
+  margin-bottom: 0;
+  text-wrap: nowrap;
+}
+
+.landing-concert .landing-content .main-content .media-partner .logo-parter img {
+  height: 70px;
   width: auto;
 }
 
 @media (max-width: 768px) {
-  .landing-concert .landing-content .main-content .media-partner .logo-parter {
+  .landing-concert .landing-content .main-content .media-partner .logo-parter img {
     height: 60px;
   }
 }
 
 @media (max-width: 575px) {
-  .landing-concert .landing-content .main-content .media-partner .logo-parter {
+  .landing-concert .landing-content .main-content .media-partner .logo-parter img {
     width: 40%;
     height: auto;
   }
-  .landing-concert .landing-content .main-content .media-partner .logo-parter img {
+  .landing-concert .landing-content .main-content .media-partner .logo-parter img img {
     width: 100%;
     height: auto;
     -o-object-fit: contain;
