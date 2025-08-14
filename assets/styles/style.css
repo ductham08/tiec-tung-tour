@@ -284,19 +284,6 @@
   }
 }
 
-@media (max-width: 575px) {
-  .landing-concert .landing-content .main-content .media-partner .logo-parter img {
-    width: 40%;
-    height: auto;
-  }
-  .landing-concert .landing-content .main-content .media-partner .logo-parter img img {
-    width: 100%;
-    height: auto;
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-}
-
 .landing-concert .landing-content .main-content .copyright {
   text-align: center;
   color: #f9efd6;
